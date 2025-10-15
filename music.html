@@ -1,0 +1,44 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player UI</title>
+    <link rel="stylesheet" href="music.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <div class="container">
+    <div class="musicplayer">
+      <div class="top-section">
+        <h2>PS3 Player</h2>
+        <i class="fas fa-ellipsis-v"></i>
+        
+      </div>
+      <div class="mid-section">
+        <img src="image.png" alt="ALbum_IMG">
+        <div class="details">
+          <h1>Nebula Drift</h1>
+          <p style="color:#4FB4FF">Artist: Echoes</p>
+        </div>
+       </div> 
+        <div class="player">
+          <div class="player-bar">
+           <span> 0.00</span>
+            <input id="pbar" type="range">
+            <Span>3.33</Span>
+          </div>
+          <div class="player-buttons">
+            <div class="wrap"><i class="fa-solid fa-backward controlBtn"></i></div>
+            <div class="wrap"><i  id="play" class="fa-solid fa-pause controlBtn"></i></div>
+            <div class="wrap"><i class="fa-solid fa-forward controlBtn"></i></div> 
+          </div>
+
+
+        </div>
+      
+    </div>
+   </div>
+
+</body>
+</html>
