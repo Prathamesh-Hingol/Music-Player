@@ -26,15 +26,4 @@ This project focuses purely on **front-end design** — *no JavaScript used!*
 
 ---
 
-## 🎨 Design Details
-| Element | Color | Description |
-|----------|--------|-------------|
-| Background | `#1e2230` / `rgb(30, 34, 48)` | Deep dark base |
-| Primary Accent | `#6e00ff` | Purple neon |
-| Secondary Accent | `#2bb1ff` | Bright blue glow |
-| Hover Color | `#3cc6ff` | Button hover glow |
-| Font | *Poppins* or *Inter*, sans-serif | Clean and modern typography |
-
----
-
-
+ 
